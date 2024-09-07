@@ -8,5 +8,5 @@ Feature: Task 1
     When I click on login button
     Then I receive an error which contains "<text>"
     Examples:
-      | user | pass | text                                                     |
-      | toy  | baby | Ihre eingegebene Identifikationsnummer und/oder Passwort |
+      | user | pass | text                                                                   |
+      | toy  | baby | The identification number and/or password you entered are not correct. |

@@ -9,8 +9,8 @@ import java.util.concurrent.TimeUnit;
 @Component
 public class WaitUtils {
     public void waitUntilElementIsVisible(Callable<Boolean> condition){
-        Awaitility.await().timeout(5, TimeUnit.SECONDS)
-                .pollInterval(5, TimeUnit.MILLISECONDS)
+        Awaitility.await().timeout(10, TimeUnit.SECONDS)
+                .pollInterval(500, TimeUnit.MILLISECONDS)
                 .until(condition);
     }
 }

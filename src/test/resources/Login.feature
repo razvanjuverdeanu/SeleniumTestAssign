@@ -9,4 +9,4 @@ Feature: Task 1
     Then I receive an error which contains "<text>"
     Examples:
       | user | pass | text                                                                   |
-      | toy  | baby | The identification number and/or password you entered are not correct. |
+      | a    | b    | The identification number and/or password you entered are not correct. |

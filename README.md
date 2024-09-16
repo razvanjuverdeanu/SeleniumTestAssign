@@ -1,4 +1,4 @@
-# Framework using Java, Selenium, Cucumber and Spring-Boot.
+# Framework using Java, Selenium (WebDriverManager), Cucumber and Spring-Boot.
 
 # Cucumber test case:
 * Log in to bkb.ch

@@ -4,7 +4,7 @@
 * Log in to bkb.ch
 * Close pop ups if needed.
 * Press on the login button
-* Enter 'a' as Identifikationsnummer
-* Enter 'b' as Passwort
+* Enter 'a' as username
+* Enter 'b' as password
 * Press on the Login
 * Assert red pop up including the text on it
